@@ -17,7 +17,9 @@ function doWhileLoop(array) {
   function maybeTrue() {
     return Math.random() >= 0.5
   }
+  
   let l = array.length - 1
+
   do {
     array = array.slice(1)
     l = l - 1
